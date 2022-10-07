@@ -1,0 +1,116 @@
+.externalBox {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 237px;
+  height: 260px;
+}
+.popupInformation {
+  background-image: url(/public/3dModel/3d/textures/弹窗绿.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 237px;
+  height: 260px;
+}
+.titleName {
+  position: absolute;
+  top: 36px;
+  left: 27px;
+  width: 80%;
+  height: 16px;
+  font-size: 20px;
+  font-family: Source Han Sans SC;
+  font-weight: bold;
+  color: #0fefe2;
+  line-height: 22px;
+}
+.externalBox > .popup-close {
+  right: 10px !important;
+  top: 10px !important;
+  width: 30px !important;
+  height: 30px !important;
+}
+.iconAndContent {
+  position: absolute;
+  top: 74px;
+  left: 26px;
+  width: 80%;
+  height: 20%;
+  /* background-color: rgb(70, 19, 19); */
+}
+.contentTitle {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 50px;
+  height: 20px;
+  font-size: 9px;
+  font-family: Source Han Sans SC;
+  font-weight: 400;
+  color: #17c8c2;
+  line-height: 22px;
+  border-top: 0px;
+  margin-top: 0px;
+}
+.schedule {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  width: 50px;
+  height: 20px;
+  font-size: 9px;
+  font-family: Source Han Sans SC;
+  font-weight: 400;
+  text-align: right;
+  color: #17c8c2;
+  line-height: 22px;
+  border-top: 0px;
+  margin-top: 0px;
+}
+.bar {
+  position: absolute;
+  top: 25px;
+  left: 0px;
+  width: 188px;
+  height: 9px;
+  background: #18424d;
+}
+.barChlid {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 130px;
+  height: 9px;
+  background: #17c8c2;
+}
+.contentBox {
+  position: absolute;
+  top: 110px;
+  left: 26px;
+  width: 80%;
+  height: 99px;
+  font-size: 18px;
+  font-family: Source Han Sans SC;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 22px;
+  /* background-color: #7748c2; */
+}
+.contentBox >div{
+ margin-bottom: 10px;
+}
+.warnBox {
+  position: absolute;
+  top: 72px;
+  left: 26px;
+  width: 80%;
+  height: 75px;
+}
+.warn {
+  position: absolute;
+  top: 0px;
+  left: 50px;
+  width: 88px;
+  height: 75px;
+  background-image: url(/public/3dModel/3d/textures/警告.png);
+}
+

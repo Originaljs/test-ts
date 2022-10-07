@@ -1,0 +1,14 @@
+.test {
+    width: 200px;
+    height: 100px;
+}
+.info{
+    width: 200px;
+    height: 100px; 
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: url(./3dModel/3d/device/蓝弹窗.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}

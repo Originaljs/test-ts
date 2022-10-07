@@ -530,6 +530,7 @@ export class CreateScene {
             events.ondbclick = (e: any) => {
                 let object = e.objects[0].object;
                 object
+                // 
             };
         }
     }

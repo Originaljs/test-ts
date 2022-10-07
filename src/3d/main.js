@@ -94637,6 +94637,10 @@ class Container {
                                 // eg. sky cube: MeshBasicMaterial[]
                                 obj.material = [darkMaterial, darkMaterial, darkMaterial, darkMaterial, darkMaterial, darkMaterial];
                             }
+							else if(obj.type == 'Mesh'){
+								obj.material = new MeshBasicMaterial({ color: 'black', transparent: true });
+							}
+
                             else if (obj.material instanceof MeshBasicMaterial) {
                                 obj.material = darkMaterial;
                             }

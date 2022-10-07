@@ -133,11 +133,11 @@ export class CreateScene {
                 },
                 outlineEnabled: false,
                 bloom: {
-                    bloomStrength: 0.001, // 强度
+                    bloomStrength: 0.0001, // 强度
                     threshold: 0, // 阈值
                     bloomRadius: 0.1, // 半径
                 },
-                bloomEnabled: false,
+                bloomEnabled: true,
                 enableShadow: true,
                 hdrUrls: ["3d/6.hdr"],
                 toneMapping: {
@@ -174,8 +174,10 @@ export class CreateScene {
                                 console.log(chlid, "111111");
                             } else if (chlid.name == "jz-_10") {
                                 this.scanLight(chlid);
+                                
                             } else if (chlid.name == "jz-_2") {
                                 this.gradient(chlid);
+                                this.container.addBloom(chlid);
                             }
                             this.treeObjectList.forEach((data: any) => {
                                 if (chlid.name === data.name) {

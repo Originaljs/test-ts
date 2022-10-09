@@ -1,10 +1,9 @@
 <template>
- <div class="box">
-    <canvas id="testBox" class="testBox"></canvas>
-  </div>
+    <div class="box">
+      <canvas id="testBox" class="testBox"></canvas>
+    </div>
 </template>
 <script setup>
-
 import { onMounted,ref } from 'vue';
 // import {pageOnload} from '@/3d/index.js'
 import {addScene} from '@/3d/index.ts'
@@ -16,7 +15,6 @@ onMounted(()=>{
       loadStatus.value = true;
     });
 })
-
 </script>
 <style lang="less">
 .box{

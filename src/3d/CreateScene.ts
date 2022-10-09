@@ -1,5 +1,5 @@
-// import * as Bol3D from "./main.js";
-const Bol3D = require("./main.js");
+import * as Bol3D from "./main.js";
+// const Bol3D = require("./main.js");
 import "./3d_index.css";
 
 export class CreateScene {
@@ -234,7 +234,7 @@ export class CreateScene {
     addWater(size: Array<number>, color: string, rotation: number, position: Array<number>) {
         const sun = new Bol3D.Vector3();
         const waterGeometry = new Bol3D.PlaneGeometry(size[0], size[1]);
-        const water = new Bol3D.Water(waterGeometry, {
+        const water:any = new Bol3D.Water(waterGeometry, {
             textureWidth: 512,
             textureHeight: 512,
             waterNormals: new Bol3D.TextureLoader().load(
@@ -268,7 +268,7 @@ export class CreateScene {
         let geometry = list[0].geometry.clone();
         let material = list[0].material.clone();
         let instancedMesh = new Bol3D.InstancedMesh(geometry, material, list.length);
-        let object3d = new Bol3D.Object3D();
+        let object3d:any = new Bol3D.Object3D();
         for (let i = 0; i < list.length; i++) {
             let position = new Bol3D.Vector3();
             let scale = new Bol3D.Vector3();

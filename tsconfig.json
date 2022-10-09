@@ -1,12 +1,14 @@
 {
   "compilerOptions": {
+    "outDir": "./",
     "target": "es5",
     "module": "commonjs",
     "noImplicitAny": true,
     "removeComments": true,
     "preserveConstEnums": true,
-    "sourceMap": false
+    "sourceMap": false,
+    "allowJs": true
   },
-  "include": ["src/3d/*.ts"],
+  "include": ["src/**/*.ts"],
   "exclude": ["node_modules","**/*.spec.ts"]
 }

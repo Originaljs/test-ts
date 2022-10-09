@@ -7,6 +7,6 @@
     "preserveConstEnums": true,
     "sourceMap": false
   },
-  "include": ["src/**/*"],
+  "include": ["src/3d/*.ts"],
   "exclude": ["node_modules","**/*.spec.ts"]
 }
